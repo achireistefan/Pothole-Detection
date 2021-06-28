@@ -1,0 +1,25 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>179_2_athmIBtWCkWLxpE.jpg</filename>
+  <source>
+    <database>Coco database</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>pothole</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>560</xmin>
+      <ymin>235</ymin>
+      <xmax>633</xmax>
+      <ymax>251</ymax>
+    </bndbox>
+  </object>
+</annotation>

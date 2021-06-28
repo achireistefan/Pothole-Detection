@@ -1,0 +1,37 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>938_6_left000262 - Copy.jpg</filename>
+  <source>
+    <database>Coco database</database>
+  </source>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>drain</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>450</xmin>
+      <ymin>520</ymin>
+      <xmax>537</xmax>
+      <ymax>560</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>drain</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>263</xmin>
+      <ymin>530</ymin>
+      <xmax>392</xmax>
+      <ymax>596</ymax>
+    </bndbox>
+  </object>
+</annotation>

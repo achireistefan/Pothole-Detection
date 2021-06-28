@@ -1,0 +1,37 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>574_4_left000086 - Copy.jpg</filename>
+  <source>
+    <database>Coco database</database>
+  </source>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>drain</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>411</xmin>
+      <ymin>600</ymin>
+      <xmax>575</xmax>
+      <ymax>697</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>drain</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>666</xmin>
+      <ymin>578</ymin>
+      <xmax>858</xmax>
+      <ymax>701</ymax>
+    </bndbox>
+  </object>
+</annotation>
