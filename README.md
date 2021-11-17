@@ -14,8 +14,7 @@ Train-val-test split
 
 Finally, the obtained dataset was randomly split by a 70:20:10 train-val-test ratio. For better results, the train-val subset (1341 images) was augmented applying the following six operations:
 
-• vertical flip;
-
+• vertical flip; <br />
 • horizontal flip;
 
 • vertical-horizontal flip;
