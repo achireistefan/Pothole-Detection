@@ -10,33 +10,25 @@ Dataset 3: MIIA Pothole Image Dataset [2] was proposed in 2019 by the Machine In
 
 Dataset 4: Another considered dataset [3] is constructed of 90 pothole images without any annotation. It was manually annotated and split into train-val-test subsets.
 
-Train-val-test split
-
-Finally, the obtained dataset was randomly split by a 70:20:10 train-val-test ratio. For better results, the train-val subset (1341 images) was augmented applying the following six operations:
-
+Train-val-test split <br />
+Finally, the obtained dataset was randomly split by a 70:20:10 train-val-test ratio. For better results, the train-val subset (1341 images) was augmented applying the following six operations: <br />
 • vertical flip; <br />
-• horizontal flip;
+• horizontal flip; <br />
+• vertical-horizontal flip; <br />
+• 90o rotation; <br />
+• average blurring; <br />
+• raise the hue value. <br />
 
-• vertical-horizontal flip;
-
-• 90o rotation;
-
-• average blurring;
-
-• raise the hue value.
-
-We provide pascal voc and yolo annotation for the augmented pothole detection dataset.
-When using this dataset in your research, we will be happy if you cite us:
-@INPROCEEDINGS{Achirei2021ICCP,
-  author = {Stefan-Daniel Achirei and Ioana-Ariana Opariuc and Otilia Zvoristeanu and Simona Caraiman and Vasile-Ion Manta},
-  title = {Pothole Detection for Visually Impaired Assistance},
-  booktitle = {International Conference on Intelligent Computer Communication and Processing (ICCP)},
-  year = {2021}
+We provide pascal voc and yolo annotation for the augmented pothole detection dataset. <br />
+When using this dataset in your research, we will be happy if you cite us: <br />
+@INPROCEEDINGS{Achirei2021ICCP, <br />
+  author = {Stefan-Daniel Achirei and Ioana-Ariana Opariuc and Otilia Zvoristeanu and Simona Caraiman and Vasile-Ion Manta}, <br />
+  title = {Pothole Detection for Visually Impaired Assistance}, <br />
+  booktitle = {International Conference on Intelligent Computer Communication and Processing (ICCP)}, <br />
+  year = {2021} <br />
 }
 
 
-[1] Atikur Rahman Chitholian, Pothole Dataset, available online: https://github.com/chitholian/Potholes-Detection OR https://public.roboflow.ai/object-detection/pothole
-
-[2] Machine Intelligence Institute of Africa, MIIA Pothole Image Classification Challenge, available online: https://zindi.africa/competitions/miia-pothole-image-classification-challenge
-
+[1] Atikur Rahman Chitholian, Pothole Dataset, available online: https://github.com/chitholian/Potholes-Detection OR https://public.roboflow.ai/object-detection/pothole <br />
+[2] Machine Intelligence Institute of Africa, MIIA Pothole Image Classification Challenge, available online: https://zindi.africa/competitions/miia-pothole-image-classification-challenge <br />
 [3] Pothole Detection Dataset, online https://people.etf.unsa.ba/~aakagic/pothole_detection/
