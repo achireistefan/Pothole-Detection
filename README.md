@@ -13,7 +13,9 @@ therefore a selection of the dataset was manually annotated with bounding boxes 
 Dataset 4: Another considered dataset [3] is constructed of 90 pothole images without any annotation. It was manually annotated and split into train-val-test subsets.
 
 Train-val-test split
+
 Finally, the obtained dataset was randomly split by a 70:20:10 train-val-test ratio. For better results, the train-val subset (1341 images) was augmented applying the following six operations:
+
 • vertical flip;
 • horizontal flip;
 • vertical-horizontal flip;
@@ -27,4 +29,4 @@ We provide pascal voc and yolo annotation for the augmented pothole detection da
 
 [2] Machine Intelligence Institute of Africa, MIIA Pothole Image Classification Challenge, available online: https://zindi.africa/competitions/miia-pothole-image-classification-challenge
 
-[3] Pothole Detection Dataset, online https://people.etf.unsa.ba/aak-agic/pothole detection/
+[3] Pothole Detection Dataset, online https://people.etf.unsa.ba/~aakagic/pothole_detection/
