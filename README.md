@@ -27,6 +27,14 @@ Finally, the obtained dataset was randomly split by a 70:20:10 train-val-test ra
 • raise the hue value.
 
 We provide pascal voc and yolo annotation for the augmented pothole detection dataset.
+When using this dataset in your research, we will be happy if you cite us:
+@INPROCEEDINGS{Achirei2021ICCP,
+  author = {Stefan-Daniel Achirei and Ioana-Ariana Opariuc and Otilia Zvoristeanu and Simona Caraiman and Vasile-Ion Manta},
+  title = {Pothole Detection for Visually Impaired Assistance},
+  booktitle = {International Conference on Intelligent Computer Communication and Processing (ICCP)},
+  year = {2021}
+}
+
 
 [1] Atikur Rahman Chitholian, Pothole Dataset, available online: https://github.com/chitholian/Potholes-Detection OR https://public.roboflow.ai/object-detection/pothole
 
